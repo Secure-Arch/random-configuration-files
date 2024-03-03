@@ -1,0 +1,14 @@
+[
+  {
+    "actions": [],
+    "appEntry": "org.kde.kdeconnect.daemon",
+    "appIcon": "kdeconnect",
+    "appName": "KDE Connect",
+    "body": "#Monkeybars: Eazy Mac &amp; Cal Scruby",
+    "id": 57,
+    "resident": true,
+    "summary": "YouTube Music",
+    "time": 1708108721,
+    "urgency": "normal"
+  }
+]

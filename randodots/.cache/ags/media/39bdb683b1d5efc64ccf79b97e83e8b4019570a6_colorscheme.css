@@ -1,0 +1,128 @@
+@keyframes flyin-top {
+  from {
+    margin-top: -2.795rem; }
+  to {
+    margin-top: 0rem; } }
+
+@keyframes flyin-bottom {
+  from {
+    margin-top: 4.841rem;
+    margin-bottom: -4.841rem; }
+  to {
+    margin-bottom: 0rem;
+    margin-top: 0rem; } }
+
+.osd-music {
+  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
+  margin: 0.476rem;
+  margin-top: 0.313rem;
+  border-radius: 1.159rem;
+  -gtk-outline-radius: 1.159rem;
+  min-width: 29.659rem;
+  background-color: #090d11;
+  padding: 0rem 1.023rem;
+  background: linear-gradient(127deg, rgba(68, 91, 105, 0.7), rgba(68, 91, 105, 0.55) 70.71%), linear-gradient(217deg, rgba(167, 193, 191, 0.7), rgba(167, 193, 191, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #8CB5CA 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(168, 201, 211, 0.7), rgba(168, 201, 211, 0.55) 70.71%), linear-gradient(#090d11, #090d11); }
+
+.osd-music-cover-fallback {
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
+  border-radius: 0.818rem;
+  -gtk-outline-radius: 0.818rem;
+  min-width: 7.5rem;
+  min-height: 7.5rem;
+  background-color: rgba(25, 29, 32, 0.31);
+  color: #d9dbdb; }
+
+.osd-music-cover {
+  border-radius: 0.818rem;
+  -gtk-outline-radius: 0.818rem;
+  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  margin-top: 1.023rem;
+  margin-bottom: 1.023rem;
+  min-width: 7.5rem;
+  min-height: 7.5rem; }
+
+.osd-music-cover-art {
+  border-radius: 0.818rem;
+  -gtk-outline-radius: 0.818rem;
+  min-width: 7.5rem;
+  min-height: 7.5rem;
+  background-size: cover;
+  background-position: center; }
+
+.osd-music-info {
+  margin: 1.023rem 0rem; }
+
+.osd-music-title {
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
+  font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
+  font-size: 1.364rem;
+  color: #d9dbdb; }
+
+.osd-music-artists {
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
+  font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
+  font-size: 0.955rem;
+  color: rgba(208, 211, 212, 0.9); }
+
+.osd-music-pill {
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
+  border-radius: 9999px;
+  -gtk-outline-radius: 9999px;
+  font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
+  min-width: 1.833rem;
+  padding: 0.273rem 0.682rem;
+  background-color: rgba(99, 121, 122, 0.5);
+  color: #d9dbdb; }
+
+.osd-music-controls {
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
+  border-radius: 9999px;
+  -gtk-outline-radius: 9999px;
+  font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
+  min-width: 1.833rem;
+  padding: 0.205rem;
+  background-color: rgba(99, 121, 122, 0.5);
+  color: #d9dbdb; }
+
+.osd-music-controlbtn {
+  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  min-width: 2.045rem;
+  min-height: 2.045rem;
+  border-radius: 9999px;
+  -gtk-outline-radius: 9999px; }
+
+.osd-music-controlbtn:hover,
+.osd-music-controlbtn:focus {
+  background-color: rgba(129, 146, 146, 0.55); }
+
+.osd-music-controlbtn:active {
+  background-color: rgba(140, 155, 156, 0.575); }
+
+.osd-music-controlbtn-txt {
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
+  transition: 100ms cubic-bezier(0.05, 0.7, 0.1, 1);
+  font-family: "Material Symbols Rounded", "MaterialSymbolsRounded", "Material Symbols Outlined", "Material Symbols Sharp";
+  font-size: 1.364rem;
+  margin: -0.1rem 0rem; }
+
+.osd-music-circprog {
+  transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
+  min-width: 0.409rem;
+  min-height: 3.068rem;
+  padding: 0.273rem;
+  color: #d9dbdb; }
+
+.osd-music-playstate {
+  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  min-height: 3.068rem;
+  min-width: 3.068rem;
+  border-radius: 10rem;
+  background-color: rgba(99, 121, 122, 0.5);
+  color: #d9dbdb; }
+
+.osd-music-playstate-btn > label {
+  transition: 50ms cubic-bezier(0.05, 0.7, 0.1, 1);
+  font-family: "Material Symbols Rounded", "MaterialSymbolsRounded", "Material Symbols Outlined", "Material Symbols Sharp";
+  font-size: 1.364rem;
+  margin: -0.1rem 0rem; }
